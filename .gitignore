@@ -1,0 +1,39 @@
+#
+# Temp files.
+#
+
+lib-cov
+*.seed
+*.log
+*.csv
+*.dat
+*.out
+*.pid
+*.gz
+
+#
+# Temp folders.
+#
+
+pids/
+logs/
+results/
+coverage/
+.leveldb/
+.vagrant/
+_builds/
+_projects/
+_steps/
+
+#
+# Node.js.
+#
+
+node_modules/
+npm-debug.log
+
+#
+# OS X.
+#
+
+.DS_Store

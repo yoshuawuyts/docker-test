@@ -1,0 +1,12 @@
+box: marcusandre/nodejs
+
+build:
+  steps:
+    - script:
+        name: install deps
+        code: |
+          sudo npm i -g npm@2
+          sudo npm i
+    - script:
+        name: test server
+        code: make test-wercker
