@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "co-body": "^1.0.0",
+    "co-body": "^5.0.0",
     "co-level": "^1.0.1",
     "koa": "^0.13.0",
     "koa-logger": "^1.2.2",
